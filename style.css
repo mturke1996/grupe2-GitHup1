@@ -1,9 +1,49 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .mainsection1{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer-1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.container{
+    width: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.f-d-right{
+    margin: 5px;
+}
+.f-d-mitte{
+    margin: 5px;
+}
+.f-d-links{
+    margin: 5px;
+}
+.f-d-right p{
+    font-size: 12px;
+}
+.f-d-mitte p{
+    font-size: 12px;
+}
+.f-d-links p{
+    font-size: 12px;
 }
 .mainheadercontainer{
     width: 35%;
@@ -63,3 +103,4 @@ body {
 .landing h1 {
     font-size: 100px;
 }
+

@@ -1,4 +1,55 @@
 
+.mainsection1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainheadercontainer{
+    width: 35%;
+    color: rgb(95, 63, 14);
+    text-align: center;
+    margin-top: 50px;
+}
+.mainline{
+    width: 7%;
+    border: 3px solid rgb(95, 63, 14);
+    margin-top: 30px;
+
+}
+.mainparagrafcontainer{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(95, 63, 14);
+}
+.mainsection2{
+    display: flex;
+    margin-top: 80px;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+}
+.mainsec2paragrafcontainer{
+    margin-left: 90px;
+    width: 50%;
+    margin-top: 20px;
+    color: rgb(95, 63, 14);
+}
+.mainsec2image{
+    width: 50%;
+}
+.mainparagraf{
+    color: rgb(37, 24, 3);
+}
+.mainsec2button{
+    width: 100px;
+    height: 30px;
+    border: black 2px solid;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
 /* Body styles */
 body {
     font-family: "Roboto", sans-serif;
